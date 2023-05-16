@@ -1,0 +1,58 @@
+<!-- Question-9 :- Create an orderded list of the most common text formating tags in HTML. Within each list item, use an unordered list to list the specfic use cases and best practices for that tag. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/PW Skill Work/Image/AK Logo edit.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-9</title>
+     
+</head>
+<body style="line-height: 22px;">
+    <h1>Most common Formatting tags</h1>
+    <ol>
+        <li style="font-weight: bold; font-size: large;">"h1-h6"</li>
+        <ul>
+            <li>Use "h1" for the main heading of a page, and use subsequent headings for subheadings in a hierarchical order.</li>
+            <li>Use headings to create a clear and concise outline of the content of the page.</li>
+            <li>Use headings to emphasize important points or sections of the page.</li>
+            <li>Don't use heading tags purely for styling purposes. Use CSS to style headings instead.</li>
+            <li>Use only one "h1" tag per page, as it should represent the main topic of the page.</li>
+        </ul>
+
+        <li style="font-weight: bold; font-size: large;">"audio"</li>
+        <ul>
+            <li>The "audio" tag is used to embed sound content in a document, such as music or other audio streams.</li>
+            <li>The "audio" tag contains one or more <"source"> tags with different audio sources. The browser will choose the first source it supports.</li>
+            <li>The text between the <"audio"> and <"/audio"> tags will only be displayed in browsers that do not support the <"audio"> element.</li>
+        </ul>
+
+        <li style="font-weight: bold; font-size: large;">"dd"</li>
+        <ul>
+            <li>The <"dd"> tag is used to describe a term/name in a description list.</li>
+            <li>The <"dd"> tag is used in conjunction with <"dl"> (defines a description list) and <"dt"> (defines terms/names).</li>
+            <li>Inside a <"dd"> tag you can put paragraphs, line breaks, images, links, lists, etc.</li>
+        </ul>
+
+        <li style="font-weight: bold; font-size: large;">"div"</li>
+        <ul>
+            <li>The <"div"> tag defines a division or a section in an HTML document.</li>
+            <li>The <"div"> tag is easily styled by using the class or id attribute.</li>
+            <li>The <"div"> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.</li>
+            <li>Any sort of content can be put inside the <"div"> tag!</li>
+        </ul>
+
+        <li style="font-weight: bold; font-size: large;">"img"</li>
+        <ul>
+            <li>The <"img"> tag is used to embed an image in an HTML page.</li>
+            <li>Images are not technically inserted into a web page; images are linked to web pages. The <"img"> tag creates a holding space for the referenced image.</li>
+            <li>The <"img"> tag has two required attributes: </li>
+                <ul>
+                    <li>src - Specifies the path to the image</li>
+                    <li>alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed</li>
+                </ul>
+        </ul>
+    </ol>
+</body>
+</html>

@@ -1,0 +1,29 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/PW Skill Work/Image/AK Logo edit.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-10</title>
+</head>
+<body>
+    <h1>1. HTML</h1>
+    <table border="2" style="font-size: 20px;">
+        <tr style="font-weight: bold;">
+            <td>Primary Use Case</td>
+            <td>Key Feature/Benefits</td>
+        </tr>
+        <tr>
+            <td>Building the structure of web page</td>
+            <td>
+                <ul style="list-style: circle;">
+                    <li>Simple and easy to learn</li>
+                    <li>Compatible with all web browers</li>
+                    <li>Allows for semantic markup</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
